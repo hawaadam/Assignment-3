@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mobile Search</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="search-container">
+    <select id="searchCriteria">
+      <option value="brand">Brand</option>
+      <option value="model">Model</option>
+      <option value="price">Price</option>
+    </select>
+    <input type="text" id="searchValue" placeholder="Enter search value">
+    <button id="searchButton" onclick="searchCars()">Search</button>
+  </div>
+
+  <div id="resultsContainer"></div>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+*{
+    
+    background-color: rgb(0, 0, 0);
+    
+  }
+
+  .search-container {
+    margin-top: 300px;
+    text-align: center;
+  }
+
+  #searchCriteria,
+  #searchValue,
+  #searchButton {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(150, 6, 247);
+  }
+
+  #resultsContainer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: rgb(243, 38, 38);
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin: 5px 0;
+  }
